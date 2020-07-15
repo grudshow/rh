@@ -95,6 +95,9 @@ body {
 	color: #000;
 	font-size: 14px;
 }
+body.lock {
+	overflow: hidden;
+}
 
 .wrapper {
 	width: 100%;
@@ -120,9 +123,6 @@ body {
 	.container {
 		max-width: none;
 		padding: 0 10px;
-	}
-	body.lock{
-		overflow:hidden;
 	}
 }
 
@@ -1093,17 +1093,8 @@ body.ie .ibg img {
 		top: 0;
 		left: 0;
 		width: 100%;
-		z-index: 3;
-	}
-	.header:before {
-		content: "";
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 60px;
-		background-color: #fff;
 		z-index: 2;
+		background-color: #fff;
 	}
 }
 .header__row {
@@ -1147,6 +1138,7 @@ body.ie .ibg img {
 }
 @media (max-width: 767.98px) {
 	.menu__body {
+		border: 1px solid red;
 		position: fixed;
 		z-index: 1;
 		width: 100%;
@@ -2550,4 +2542,8 @@ input[type=text]::placeholder {
 	line-height: 41.99px;
 	letter-spacing: 0.22px;
 	margin: 0px auto;
+}
+
+.lock {
+	overflow: hidden;
 }
