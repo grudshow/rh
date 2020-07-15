@@ -95,9 +95,6 @@ body {
 	color: #000;
 	font-size: 14px;
 }
-body.lock {
-	overflow: hidden;
-}
 
 .wrapper {
 	width: 100%;
