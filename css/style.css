@@ -1138,7 +1138,6 @@ body.ie .ibg img {
 }
 @media (max-width: 767.98px) {
 	.menu__body {
-		border: 1px solid red;
 		position: fixed;
 		z-index: 1;
 		width: 100%;
@@ -2542,8 +2541,4 @@ input[type=text]::placeholder {
 	line-height: 41.99px;
 	letter-spacing: 0.22px;
 	margin: 0px auto;
-}
-
-.lock {
-	overflow: hidden;
 }
