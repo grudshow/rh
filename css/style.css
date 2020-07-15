@@ -124,6 +124,9 @@ body.lock {
 		max-width: none;
 		padding: 0 10px;
 	}
+	body.lock{
+		overflow:hidden;
+	}
 }
 
 .form-row {
